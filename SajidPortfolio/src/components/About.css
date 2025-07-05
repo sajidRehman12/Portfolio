@@ -1,0 +1,179 @@
+.about-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4rem;
+  align-items: start;
+}
+
+.about-text {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.about-intro h3 {
+  font-size: 1.8rem;
+  margin-bottom: 1.5rem;
+  color: #667eea;
+}
+
+.about-intro p {
+  font-size: 1.1rem;
+  color: #b0b0b0;
+  line-height: 1.7;
+  margin-bottom: 1rem;
+}
+
+.about-highlights {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.highlight-item {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 1.5rem;
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 15px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  transition: all 0.3s ease;
+}
+
+.highlight-item:hover {
+  background: rgba(255, 255, 255, 0.1);
+  transform: translateY(-2px);
+}
+
+.highlight-icon {
+  font-size: 2rem;
+  color: #667eea;
+}
+
+.highlight-item h4 {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+  color: #ffffff;
+}
+
+.highlight-item p {
+  color: #b0b0b0;
+  font-size: 0.9rem;
+}
+
+.about-info {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.info-card {
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 20px;
+  padding: 2rem;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  transition: all 0.3s ease;
+}
+
+.info-card:hover {
+  background: rgba(255, 255, 255, 0.1);
+  transform: translateY(-5px);
+}
+
+.info-icon {
+  font-size: 2.5rem;
+  color: #667eea;
+  margin-bottom: 1rem;
+}
+
+.info-card h3 {
+  font-size: 1.5rem;
+  margin-bottom: 1.5rem;
+  color: #ffffff;
+}
+
+.education-item h4 {
+  font-size: 1.3rem;
+  color: #667eea;
+  margin-bottom: 0.5rem;
+}
+
+.institution {
+  font-size: 1.1rem;
+  color: #ffffff;
+  margin-bottom: 0.5rem;
+}
+
+.duration,
+.cgpa {
+  color: #b0b0b0;
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.coursework {
+  margin-top: 1.5rem;
+}
+
+.coursework h5 {
+  font-size: 1.1rem;
+  color: #667eea;
+  margin-bottom: 1rem;
+}
+
+.coursework ul {
+  list-style: none;
+  padding: 0;
+}
+
+.coursework li {
+  padding: 0.5rem 0;
+  color: #b0b0b0;
+  position: relative;
+  padding-left: 1.5rem;
+}
+
+.coursework li::before {
+  content: '▶';
+  position: absolute;
+  left: 0;
+  color: #667eea;
+  font-size: 0.8rem;
+}
+
+/* Mobile Styles */
+@media (max-width: 768px) {
+  .about-content {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+
+  .about-intro h3 {
+    font-size: 1.5rem;
+  }
+
+  .about-intro p {
+    font-size: 1rem;
+  }
+
+  .info-card {
+    padding: 1.5rem;
+  }
+
+  .info-icon {
+    font-size: 2rem;
+  }
+
+  .info-card h3 {
+    font-size: 1.3rem;
+  }
+
+  .education-item h4 {
+    font-size: 1.1rem;
+  }
+
+  .institution {
+    font-size: 1rem;
+  }
+} 
