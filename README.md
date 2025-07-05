@@ -1,125 +1,124 @@
-# Sadia Khalil - Portfolio
+**Live Preview** https://portfolio-lime-three-18.vercel.app/
 
-A modern, minimal portfolio website showcasing software engineering and AI/ML development skills. Built with Next.js and Tailwind CSS.
+# Sajid Ur Rehman - Portfolio Website
+
+A modern, responsive portfolio website built with React.js showcasing the work and skills of Sajid Ur Rehman, a Software Engineering student from Punjab University College of Information Technology.
 
 ## Features
 
-- **Responsive Design**: Looks great on all devices
-- **Modern UI**: Clean, minimal design with smooth animations
-- **Fast Performance**: Built with Next.js for optimal speed
-- **Skills Showcase**: Highlights key technical competencies
-- **Project Portfolio**: Features 5 main projects with GitHub links
-- **Contact Integration**: Direct links to email, phone, and social media
+- **Responsive Design**: Optimized for all devices (desktop, tablet, mobile)
+- **Modern UI/UX**: Clean, professional design with smooth animations
+- **Interactive Navigation**: Smooth scrolling and active section highlighting
+- **Project Showcase**: Filterable project gallery with detailed information
+- **Contact Form**: Functional contact form for inquiries
+- **Social Media Integration**: Links to GitHub, LinkedIn, and other platforms
+- **Skills Visualization**: Interactive skill bars and categorized competencies
 
-## Getting Started
+## Technologies Used
 
-### Prerequisites
+- **Frontend**: React.js, HTML5, CSS3, JavaScript (ES6+)
+- **Icons**: React Icons
+- **Styling**: CSS Modules with custom animations
+- **Deployment**: Optimized for modern web hosting platforms
 
-- Node.js (version 18 or higher)
-- npm or yarn package manager
+## Projects Featured
 
-### Installation
+1. **ShopSphere** - MERN Stack E-commerce Platform
+2. **FaceGuard** - Face Recognition System (MTCNN + FaceNet)
+3. **House Repair** - Service Booking Platform
+4. **Taskify** - Mobile Task Management App
+5. **Binary Classification Neural Network** - Machine Learning Project
 
-1. Install dependencies:
-```bash
-npm install
-```
+## Installation & Setup
 
-2. Run the development server:
-```bash
-npm run dev
-```
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/sajidRehman12/portfolio.git
+   cd portfolio
+   ```
 
-3. Open [http://localhost:3000](http://localhost:3000) in your browser
+2. **Install dependencies**
+   ```bash
+   npm install
+   ```
 
-### Build for Production
+3. **Start the development server**
+   ```bash
+   npm start
+   ```
 
-```bash
-npm run build
-npm start
-```
+4. **Build for production**
+   ```bash
+   npm run build
+   ```
 
 ## Project Structure
 
 ```
-Portfolio/
-├── app/
-│   ├── components/
-│   │   ├── Header.js       # Navigation header
-│   │   ├── Hero.js         # Main introduction section
-│   │   ├── About.js        # Education and experience
-│   │   ├── Skills.js       # Technical skills showcase
-│   │   ├── Projects.js     # Project portfolio
-│   │   └── Contact.js      # Contact information
-│   ├── globals.css         # Global styles and animations
-│   ├── layout.js           # Main layout wrapper
-│   └── page.js             # Home page component
-├── package.json
-├── tailwind.config.js
-└── README.md
+src/
+├── components/
+│   ├── Header.js          # Navigation header
+│   ├── Hero.js            # Landing section
+│   ├── About.js           # About section
+│   ├── Skills.js          # Skills showcase
+│   ├── Experience.js      # Work experience
+│   ├── Projects.js        # Project portfolio
+│   ├── Contact.js         # Contact form
+│   └── [Component].css    # Individual component styles
+├── App.js                 # Main application component
+├── App.css                # Global app styles
+├── index.js               # Application entry point
+└── index.css              # Global styles
 ```
 
-## Deployment Options
+## Contact Information
 
-### Vercel (Recommended)
-1. Push your code to GitHub
-2. Connect your GitHub repository to Vercel
-3. Deploy automatically
+- **Email**: rehmansajid919@gmail.com
+- **Phone**: +92 306 4705616
+- **Location**: Lahore, Pakistan
+- **LinkedIn**: [Sajid Rehman](https://www.linkedin.com/in/sajid-rehman-89b18a268/)
+- **GitHub**: [sajidRehman12](https://github.com/sajidRehman12)
 
-### Netlify
-1. Run `npm run build`
-2. Deploy the `.next` folder to Netlify
+## Available Scripts
 
-### Manual Deployment
-1. Run `npm run build`
-2. Upload the generated files to your hosting provider
+In the project directory, you can run:
 
-## Customization
+### `npm start`
+Runs the app in development mode. Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-### Colors
-Edit `tailwind.config.js` to change the color scheme:
-```js
-colors: {
-  primary: '#0070f3',
-  secondary: '#7c3aed',
-  // ... add your preferred colors
-}
-```
+### `npm test`
+Launches the test runner in interactive watch mode.
 
-### Content
-Update the following files to customize content:
-- `app/components/Hero.js` - Personal information
-- `app/components/About.js` - Education and experience
-- `app/components/Skills.js` - Technical skills
-- `app/components/Projects.js` - Project portfolio
-- `app/components/Contact.js` - Contact information
+### `npm run build`
+Builds the app for production to the `build` folder.
 
-### Styling
-- `app/globals.css` - Global styles and animations
-- Individual component files - Component-specific styling
+### `npm run eject`
+**Note: This is a one-way operation. Once you eject, you can't go back!**
 
-## Technologies Used
+## Browser Support
 
-- **Next.js 14** - React framework
-- **Tailwind CSS** - Utility-first CSS framework
-- **Lucide React** - Beautiful icons
-- **JavaScript/JSX** - Clean, readable code
+This portfolio website supports all modern browsers including:
+- Chrome (latest)
+- Firefox (latest)
+- Safari (latest)
+- Edge (latest)
 
-## Performance Features
+## Performance Optimizations
 
 - Optimized images and assets
-- Smooth scroll navigation
-- Hover animations and transitions
-- Mobile-first responsive design
-- Fast loading times
+- Efficient CSS animations
+- Minimized bundle size
+- Lazy loading for components
+- Responsive design patterns
 
-## Contact
+## Contributing
 
-For any questions or customizations, reach out to:
-- Email: sadiakhalil957@gmail.com
-- LinkedIn: https://www.linkedin.com/in/sadia-khalil-851889261/
-- GitHub: https://github.com/SadiaKhalil125
+This is a personal portfolio website. For suggestions or improvements, please reach out via the contact form or email.
+
+## License
+
+This project is open source and available under the [MIT License](LICENSE).
 
 ---
 
-Built with ❤️ using Next.js and Tailwind CSS 
+**Built with ❤️ by Sajid Ur Rehman** 
